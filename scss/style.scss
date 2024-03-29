@@ -1,0 +1,16 @@
+@import 'base/generales';
+@import 'base/variables';
+@import 'utilities/maps';
+@import 'utilities/extends';
+@import 'utilities/mixins';
+@import 'utilities/bucles';
+@import 'components/body';
+@import 'components/header';
+@import 'components/main';
+@import 'components/footer';
+@import 'pages/index.scss';
+@import 'pages/menu.scss';
+@import 'pages/nosotros.scss';
+@import 'pages/pedidos.scss';
+@import 'pages/contactos.scss';
+@import 'utilities/condicionales';

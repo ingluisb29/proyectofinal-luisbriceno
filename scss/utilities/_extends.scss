@@ -1,0 +1,61 @@
+%flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%hov{
+    color: aqua;
+    transition: 0.5s;
+}
+
+%boton{
+    background-color: $color;
+    border-radius: 10px;
+}
+
+%marcoP{
+    background-color: #007987;
+    background-color: #007987;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 20px
+}
+
+%encabezado320{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+
+%menus{
+    margin-bottom: 20px;
+    background-color: #c3c8ca;
+    height: auto;
+    width: 100%;
+    display: grid;
+}
+
+%menus1{
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+}
+
+%menuImg320{
+    background-size: cover;
+    height: 170px;
+    width: 100%;
+}
+

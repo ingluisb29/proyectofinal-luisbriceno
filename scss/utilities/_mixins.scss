@@ -1,0 +1,5 @@
+@mixin marco ($position, $size, $justify){
+    background-position: $position;
+    background-size: $size;
+    justify-content: $justify;
+}

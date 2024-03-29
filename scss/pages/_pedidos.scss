@@ -1,0 +1,56 @@
+.pedidos{
+    @extend %encabezado320;
+    &:hover{
+    @extend %hov;
+    }  
+}
+.contenido4{
+    @extend %flex-center;
+    @extend %marcoP;
+    .informacionPedido{
+        font-size: 18px;
+        font-weight: bold;
+        color: orange;
+        .enviar{
+            @extend %boton;
+        }
+        .restablecer{
+            @extend %boton;
+        }
+}
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .pedidos{
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+        &:hover{
+            @extend %hov;
+        }    
+    }
+    .contenido4{
+        @extend %flex-center;
+        @extend %marcoP;
+        .informacionPedido{
+            font-size: 22px;
+            font-weight: bold;
+            color: orange;
+            .enviar{
+            @extend %boton;
+            }
+            .restablecer{
+            @extend %boton;
+            }
+        }
+    }
+}

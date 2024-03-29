@@ -1,0 +1,116 @@
+.bienvenidos{
+    @extend %encabezado320;
+    &:hover{
+        @extend %hov;
+    }  
+}
+section {
+    margin-bottom: 20px;
+    background-color: #c3c8ca;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr );
+    padding: 20px;
+    grid-gap: 10px;  
+    .home {
+        @include marco (center, cover, space-between);
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 10px;
+       
+    }
+    .img1 {
+        background-image: url(../../img/budindelimon.jpg);
+        background-size: cover;
+        height: 170px;
+        width: 100%;
+        align-items: center;
+    }
+    .img2 {
+        background-image: url(../../img/macarron.png.jpg);
+        background-size: cover;
+        height: 170px;
+        width: 100%;
+    }
+    .p1 {
+        width: 30%;
+        height: 170px;
+        width: 100%;
+        font-size: 9px;
+        padding: 10px;
+        color: aqua;             
+        }
+    .p2 {
+        width: 30%;
+        height: 170px;
+        width: 100%;
+        font-size: 9px;
+        padding: 10px;
+        color: aqua;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .bienvenidos{
+        font-weight: bold;
+        font-size: 50px;
+        background-color: white;
+        height: 150px;
+        width: 100%;
+        background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+        background-size: contain;
+        background-position: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        &:hover{
+            @extend %hov;
+        }  
+         
+    }
+  
+    section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr );
+        margin-top: 75px;
+        grid-gap: 20px;
+        .home {
+            @include marco (center, cover, space-between);
+            border: 1px solid black;
+            background-color: white;
+            border-radius: 10px;
+        }
+        .img1 {
+            background-image: url(../../img/budindelimon.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .img2 {
+            background-image: url(../../img/macarron.png.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .p1 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;                
+        }
+        .p2 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 20px;
+            font-weight: bold;
+            padding: 20px;  
+        }
+    }
+}

@@ -1,0 +1,585 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.contenido4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactos:hover, .pedidos:hover, .nosotros:hover, .menu:hover, .bienvenidos:hover {
+  color: aqua;
+  transition: 0.5s;
+}
+
+.contenido4 .informacionPedido .restablecer, .contenido4 .informacionPedido .enviar {
+  background-color: orange;
+  border-radius: 10px;
+}
+
+.contenido4 {
+  background-color: #007987;
+  background-color: #007987;
+  border: 3px solid black;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.contactos, .pedidos, .nosotros, .menu, .bienvenidos {
+  font-size: 22px;
+  font-weight: bold;
+  background-color: white;
+  height: 150px;
+  width: 100%;
+  background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  padding: 60px;
+  border-radius: 10px;
+}
+
+.contenido2 {
+  margin-bottom: 20px;
+  background-color: #c3c8ca;
+  height: auto;
+  width: 100%;
+  display: grid;
+}
+
+.contenido2 .menu1 {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.contenido2 .img6, .contenido2 .img5, .contenido2 .img4, .contenido2 .img3 {
+  background-size: cover;
+  height: 170px;
+  width: 100%;
+}
+
+body {
+  background-color: #c3c8ca;
+  width: 100%;
+  height: 500px;
+  margin-top: 80px;
+}
+
+main {
+  padding: 30px;
+}
+
+footer {
+  display: inline-block;
+  background-color: #007987;
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  bottom: 0;
+}
+footer .redes {
+  margin: 20px;
+}
+footer .redes a {
+  text-decoration: none;
+  color: springgreen;
+  font-size: 50px;
+  letter-spacing: 15px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #c3c8ca;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  padding: 20px;
+  grid-gap: 10px;
+}
+section .home {
+  background-position: center;
+  background-size: cover;
+  justify-content: space-between;
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 10px;
+}
+section .img1 {
+  background-image: url(../../img/budindelimon.jpg);
+  background-size: cover;
+  height: 170px;
+  width: 100%;
+  align-items: center;
+}
+section .img2 {
+  background-image: url(../../img/macarron.png.jpg);
+  background-size: cover;
+  height: 170px;
+  width: 100%;
+}
+section .p1 {
+  width: 30%;
+  height: 170px;
+  width: 100%;
+  font-size: 9px;
+  padding: 10px;
+  color: aqua;
+}
+section .p2 {
+  width: 30%;
+  height: 170px;
+  width: 100%;
+  font-size: 9px;
+  padding: 10px;
+  color: aqua;
+}
+
+@media only screen and (min-width: 1024px) {
+  .bienvenidos {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin-top: 75px;
+    grid-gap: 20px;
+  }
+  section .home {
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+  }
+  section .img1 {
+    background-image: url(../../img/budindelimon.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  section .img2 {
+    background-image: url(../../img/macarron.png.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  section .p1 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  section .p2 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px;
+  }
+}
+.contenido2 {
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  padding: 20px;
+  grid-gap: 10px;
+}
+.contenido2 .menu1 {
+  justify-content: space-between;
+}
+.contenido2 .img3 {
+  background-image: url(../../img/mousse\ de\ chocolate.jpg);
+}
+.contenido2 .img4 {
+  background-image: url(../../img/flan\ vegano.jpg);
+}
+.contenido2 .img5 {
+  background-image: url(../../img/cheesecakede\ arandanos.jpg);
+}
+.contenido2 .img6 {
+  background-image: url(../../img/hojaldre.jpg);
+}
+.contenido2 .p3 {
+  width: 30%;
+  height: 145px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+}
+.contenido2 .p4 {
+  width: 30%;
+  height: 145px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+}
+.contenido2 .p5 {
+  width: 30%;
+  height: 145px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+}
+.contenido2 .p6 {
+  width: 30%;
+  height: 145px;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+}
+
+@media only screen and (min-width: 1024px) {
+  .menu {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  .contenido2 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    margin-top: 75px;
+    grid-gap: 20px;
+  }
+  .contenido2 .menu1 {
+    justify-content: space-between;
+  }
+  .contenido2 .img3 {
+    background-image: url(../../img/mousse\ de\ chocolate.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  .contenido2 .img4 {
+    background-image: url(../../img/flan\ vegano.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  .contenido2 .img5 {
+    background-image: url(../../img/cheesecakede\ arandanos.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  .contenido2 .img6 {
+    background-image: url(../../img/hojaldre.jpg);
+    max-width: 75%;
+    margin-left: 170px;
+    height: 360px;
+  }
+  .contenido2 .p3 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .contenido2 .p4 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .contenido2 .p5 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+  .contenido2 .p6 {
+    max-width: 75%;
+    height: 360px;
+    color: aqua;
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+  }
+}
+.contenido3 {
+  margin-top: 20PX;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  border-radius: 15px;
+  background-color: violet;
+  display: grid;
+  grid-template-columns: repeat(2, 40px);
+  grid-template-rows: repeat(4, 200px);
+  grid-template-areas: "img1 img1 img3 img3" "img4 img4 img5 img5" "img7 img7 img8 img8" "img2 img2 img6 img6";
+  grid-gap: 20px;
+}
+.contenido3 .item {
+  border: 2px solid black;
+  border-radius: 15px;
+  background-size: cover;
+  background-position: center;
+}
+.contenido3 .item1 {
+  grid-area: img1;
+  background-image: url(../../img/budindelimon.jpg);
+}
+.contenido3 .item2 {
+  grid-area: img2;
+  background-image: url(../../img/cheesecakede\ arandanos.jpg);
+}
+.contenido3 .item3 {
+  grid-area: img3;
+  background-image: url(../../img/flan\ vegano.jpg);
+}
+.contenido3 .item4 {
+  grid-area: img4;
+  background-image: url(../../img/macarron.png.jpg);
+}
+.contenido3 .item5 {
+  grid-area: img5;
+  background-image: url(../../img/quiche\ higos.jpg);
+}
+.contenido3 .item6 {
+  grid-area: img6;
+  background-image: url(../../img/sable\ de\ cardamomo.jpg);
+}
+.contenido3 .item7 {
+  grid-area: img7;
+  background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+}
+.contenido3 .item8 {
+  grid-area: img8;
+  background-image: url(../../img/hojaldre.jpg);
+}
+
+.p7 {
+  background-color: white;
+  border-radius: 15px;
+  border: 2px solid black;
+  width: 30%;
+  height: 700px;
+  width: 100%;
+  font-size: 11px;
+  padding: 10px;
+  color: aqua;
+}
+
+@media only screen and (min-width: 1024px) {
+  .nosotros {
+    font-weight: bold;
+    font-size: 50px;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  .contenido3 {
+    margin-top: 20PX;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: violet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas: "img1 img2 img3 img3" "img1 img4 img5 img6" "img7 img4 img8 img8";
+    grid-gap: 20px;
+  }
+  .contenido3 .item {
+    border: 2px solid black;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+  }
+  .contenido3 .item1 {
+    grid-area: img1;
+    background-image: url(../../img/budindelimon.jpg);
+  }
+  .contenido3 .item2 {
+    grid-area: img2;
+    background-image: url(../../img/cheesecakede\ arandanos.jpg);
+  }
+  .contenido3 .item3 {
+    grid-area: img3;
+    background-image: url(../../img/flan\ vegano.jpg);
+  }
+  .contenido3 .item4 {
+    grid-area: img4;
+    background-image: url(../../img/macarron.png.jpg);
+  }
+  .contenido3 .item5 {
+    grid-area: img5;
+    background-image: url(../../img/quiche\ higos.jpg);
+  }
+  .contenido3 .item6 {
+    grid-area: img6;
+    background-image: url(../../img/sable\ de\ cardamomo.jpg);
+  }
+  .contenido3 .item7 {
+    grid-area: img7;
+    background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+  }
+  .contenido3 .item8 {
+    grid-area: img8;
+    background-image: url(../../img/hojaldre.jpg);
+  }
+  .p7 {
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 30%;
+    height: 500px;
+    width: 100%;
+    font-size: 22px;
+    padding: 10px;
+    color: aqua;
+  }
+}
+.contenido4 .informacionPedido {
+  font-size: 18px;
+  font-weight: bold;
+  color: orange;
+}
+@media only screen and (min-width: 1024px) {
+  .pedidos {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  .contenido4 .informacionPedido {
+    font-size: 22px;
+    font-weight: bold;
+    color: orange;
+  }
+}
+.contenido5 {
+  margin-bottom: 20px;
+  background-color: #c3c8ca;
+  height: auto;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 20px;
+  grid-gap: 10px;
+}
+.contenido5 .informacion {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  height: 150px;
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+  padding: 10px;
+  color: aqua;
+}
+.contenido5 div .mapa {
+  justify-content: center;
+  width: 100%;
+  height: 150px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .contactos {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: white;
+    height: 150px;
+    width: 100%;
+    background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+    background-size: contain;
+    background-position: center;
+    text-align: center;
+    padding: 50px;
+    border-radius: 10px;
+  }
+  .contenido5 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin-top: 75px;
+    grid-gap: 20px;
+  }
+  .contenido5 .informacion {
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+    color: aqua;
+  }
+  .contenido5 div .mapa {
+    justify-content: center;
+    width: 100%;
+    height: 200px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

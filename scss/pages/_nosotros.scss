@@ -1,0 +1,161 @@
+.nosotros{
+    @extend %encabezado320;
+    &:hover{
+        @extend %hov;
+    }    
+}
+.contenido3{
+    margin-top: 20PX ;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: violet ;
+    display: $diplay;
+    grid-template-columns: repeat(2,  40px );
+    grid-template-rows: repeat(4,  200px);
+    grid-template-areas: 
+    "img1 img1 img3 img3"
+    "img4 img4 img5 img5"
+    "img7 img7 img8 img8"
+    "img2 img2 img6 img6";
+    grid-gap: 20px;  
+    
+    .item{
+        border: 2px solid black;
+        border-radius: 15px;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    .item1{
+        grid-area: img1;
+        background-image: url(../../img/budindelimon.jpg);
+    }
+    .item2{
+        grid-area: img2;
+        background-image: url(../../img/cheesecakede\ arandanos.jpg);
+    }
+    .item3{
+        grid-area: img3;
+        background-image: url(../../img/flan\ vegano.jpg);
+    }
+    .item4{
+        grid-area: img4;
+        background-image: url(../../img/macarron.png.jpg);
+    }
+    .item5{
+        grid-area: img5;
+        background-image: url(../../img/quiche\ higos.jpg);
+    }
+    .item6{
+        grid-area: img6;
+        background-image: url(../../img/sable\ de\ cardamomo.jpg);
+    }
+    .item7{
+        grid-area: img7;
+        background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+    }
+    .item8{
+        grid-area: img8;
+        background-image: url(../../img/hojaldre.jpg);
+    }
+}
+.p7{
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 30%;
+    height: 700px;
+    width: 100%;
+    font-size: 11px;
+    padding: 10px;
+    color: aqua; 
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .nosotros{
+        font-weight: bold;
+        font-size: 50px;
+        background-color: white;
+        height: 150px;
+        width: 100%;
+        background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+        background-size: contain;
+        background-position: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        &:hover{
+            @extend %hov;
+        }   
+    }
+    .contenido3{
+        margin-top: 20PX ;
+        width: 100%;
+        height: auto;
+        padding: 20px;
+        border-radius: 15px;
+        background-color: violet ;
+        display: $diplay;
+        grid-template-columns: repeat(4,  1fr);
+        grid-template-rows: repeat(3,  200px);
+        grid-template-areas: 
+        "img1 img2 img3 img3"
+        "img1 img4 img5 img6"
+        "img7 img4 img8 img8";
+        grid-gap: 20px;  
+        
+        .item{
+            border: 2px solid black;
+            border-radius: 15px;
+            background-size: cover;
+            background-position: center;
+        }
+        
+        .item1{
+            grid-area: img1;
+            background-image: url(../../img/budindelimon.jpg);
+        }
+        .item2{
+            grid-area: img2;
+            background-image: url(../../img/cheesecakede\ arandanos.jpg);
+        }
+        .item3{
+            grid-area: img3;
+            background-image: url(../../img/flan\ vegano.jpg);
+        }
+        .item4{
+            grid-area: img4;
+            background-image: url(../../img/macarron.png.jpg);
+        }
+        .item5{
+            grid-area: img5;
+            background-image: url(../../img/quiche\ higos.jpg);
+        }
+        .item6{
+            grid-area: img6;
+            background-image: url(../../img/sable\ de\ cardamomo.jpg);
+        }
+        .item7{
+            grid-area: img7;
+            background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+        }
+        .item8{
+            grid-area: img8;
+            background-image: url(../../img/hojaldre.jpg);
+        }
+    }
+    .p7{
+        background-color: white;
+        border-radius: 15px;
+        border: 2px solid black;
+        width: 30%;
+        height: 500px;
+        width: 100%;
+        font-size: 22px;
+        padding: 10px;
+        color: aqua; 
+    }
+}

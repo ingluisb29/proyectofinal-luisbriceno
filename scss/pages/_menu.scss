@@ -1,0 +1,160 @@
+.menu{
+    @extend %encabezado320;
+    &:hover{
+        @extend %hov;
+    }    
+}
+.contenido2 {
+    @extend %menus;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8, 1fr );
+    padding: 20px;
+    grid-gap: 10px;  
+    .menu1 {
+        @extend %menus1;
+        justify-content: space-between;
+    }
+    .img3 {
+        background-image: url(../../img/mousse\ de\ chocolate.jpg);
+        @extend %menuImg320;
+    }
+    .img4 {
+        background-image: url(../../img/flan\ vegano.jpg);
+        @extend %menuImg320;
+    }
+    .img5 {
+        background-image: url(../../img/cheesecakede\ arandanos.jpg);
+        @extend %menuImg320;
+    }
+    .img6 {
+        background-image: url(../../img/hojaldre.jpg);
+        @extend %menuImg320;
+    }
+    .p3 {
+        width: 30%;
+        height: $altura;
+        width: 100%;
+        font-size: 11px;
+        text-align: center;             
+        padding: 10px;
+        color: aqua;
+        }
+    .p4 {
+        width: 30%;
+        height: $altura;
+        width: 100%;
+        font-size: 11px;
+        text-align: center; 
+        padding: 10px;
+        color: aqua;
+        }
+    .p5 {
+        width: 30%;
+        height: $altura;
+        width: 100%;
+        font-size: 11px;
+        text-align: center; 
+        padding: 10px;
+        color: aqua;             
+        }
+    .p6 {
+        width: 30%;
+        height: $altura;
+        width: 100%;
+        font-size: 11px;
+        text-align: center; 
+        padding: 10px;
+        color: aqua;
+        }
+}
+
+@media only screen and (min-width: 1024px) {
+
+    .menu{
+        font-size: 50px;
+        font-weight: bold;
+        background-color: white;
+        height: 150px;
+        width: 100%;
+        background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+        background-size: contain;
+        background-position: center;
+        text-align: center;
+        padding: 50px;
+        border-radius: 10px;
+        &:hover{
+            @extend %hov;
+        }   
+    }
+    .contenido2 {
+        @extend %menus;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr );
+        margin-top: 75px;
+        grid-gap: 20px;
+        .menu1 {
+            @extend %menus1;
+            justify-content: space-between;
+        }
+        .img3 {
+            background-image: url(../../img/mousse\ de\ chocolate.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .img4 {
+            background-image: url(../../img/flan\ vegano.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .img5 {
+            background-image: url(../../img/cheesecakede\ arandanos.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .img6 {
+            background-image: url(../../img/hojaldre.jpg);
+            max-width: 75%;
+            margin-left: 170px;
+            height: 360px;
+        }
+        .p3 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;               
+        }
+        .p4 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;   
+        }
+        .p5 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;               
+        }
+        .p6 {
+            max-width: 75%;
+            height: 360px;
+            color: aqua;
+            font-size: 22px;
+            text-align: center;
+            font-weight: bold;
+            padding: 20px;  
+        }
+    }
+}
