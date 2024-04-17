@@ -134,7 +134,7 @@ section .p1 {
   width: 100%;
   font-size: 9px;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 section .p2 {
   width: 30%;
@@ -142,7 +142,7 @@ section .p2 {
   width: 100%;
   font-size: 9px;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -189,7 +189,7 @@ section .p2 {
   section .p1 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
@@ -197,7 +197,7 @@ section .p2 {
   section .p2 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 20px;
     font-weight: bold;
     padding: 20px;
@@ -231,7 +231,7 @@ section .p2 {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 .contenido2 .p4 {
   width: 30%;
@@ -240,7 +240,7 @@ section .p2 {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 .contenido2 .p5 {
   width: 30%;
@@ -249,7 +249,7 @@ section .p2 {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 .contenido2 .p6 {
   width: 30%;
@@ -258,7 +258,7 @@ section .p2 {
   font-size: 11px;
   text-align: center;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -311,7 +311,7 @@ section .p2 {
   .contenido2 .p3 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
@@ -320,7 +320,7 @@ section .p2 {
   .contenido2 .p4 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
@@ -329,7 +329,7 @@ section .p2 {
   .contenido2 .p5 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
@@ -338,7 +338,7 @@ section .p2 {
   .contenido2 .p6 {
     max-width: 75%;
     height: 360px;
-    color: aqua;
+    color: black;
     font-size: 22px;
     text-align: center;
     font-weight: bold;
@@ -483,7 +483,7 @@ section .p2 {
     width: 100%;
     font-size: 22px;
     padding: 10px;
-    color: aqua;
+    color: black;
   }
 }
 .contenido4 .informacionPedido {
@@ -533,7 +533,7 @@ section .p2 {
   font-size: 13px;
   text-align: center;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 .contenido5 div .mapa {
   justify-content: center;
@@ -573,7 +573,7 @@ section .p2 {
     font-size: 25px;
     text-align: center;
     padding: 20px;
-    color: aqua;
+    color: black;
   }
   .contenido5 div .mapa {
     justify-content: center;
