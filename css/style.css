@@ -115,14 +115,14 @@ section .home {
   border-radius: 10px;
 }
 section .img1 {
-  background-image: url(../../img/budindelimon.jpg);
+  background-image: url(../../img/budindelimon.webp);
   background-size: cover;
   height: 300px;
   width: 100%;
   align-items: center;
 }
 section .img2 {
-  background-image: url(../../img/macarron.png.jpg);
+  background-image: url(../../img/macarron.webp);
   background-size: cover;
   height: 300px;
   width: 100%;
@@ -174,13 +174,13 @@ section .p2 {
     border-radius: 10px;
   }
   section .img1 {
-    background-image: url(../../img/budindelimon.jpg);
+    background-image: url(../../img/budindelimon.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
   }
   section .img2 {
-    background-image: url(../../img/macarron.png.jpg);
+    background-image: url(../../img/macarron.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
@@ -212,16 +212,16 @@ section .p2 {
   justify-content: space-between;
 }
 .contenido2 .img3 {
-  background-image: url(../../img/mousse\ de\ chocolate.jpg);
+  background-image: url(../../img/mousse\ de\ chocolate.webp);
 }
 .contenido2 .img4 {
-  background-image: url(../../img/flan\ vegano.jpg);
+  background-image: url(../../img/flan\ vegano.webp);
 }
 .contenido2 .img5 {
-  background-image: url(../../img/cheesecakede\ arandanos.jpg);
+  background-image: url(../../img/cheesecakede\ arandanos.webp);
 }
 .contenido2 .img6 {
-  background-image: url(../../img/hojaldre.jpg);
+  background-image: url(../../img/hojaldre.webp);
 }
 .contenido2 .p3 {
   width: 30%;
@@ -284,25 +284,25 @@ section .p2 {
     justify-content: space-between;
   }
   .contenido2 .img3 {
-    background-image: url(../../img/mousse\ de\ chocolate.jpg);
+    background-image: url(../../img/mousse\ de\ chocolate.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
   }
   .contenido2 .img4 {
-    background-image: url(../../img/flan\ vegano.jpg);
+    background-image: url(../../img/flan\ vegano.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
   }
   .contenido2 .img5 {
-    background-image: url(../../img/cheesecakede\ arandanos.jpg);
+    background-image: url(../../img/cheesecakede\ arandanos.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
   }
   .contenido2 .img6 {
-    background-image: url(../../img/hojaldre.jpg);
+    background-image: url(../../img/hojaldre.webp);
     max-width: 75%;
     margin-left: 170px;
     height: 360px;
@@ -365,35 +365,35 @@ section .p2 {
 }
 .contenido3 .item1 {
   grid-area: img1;
-  background-image: url(../../img/budindelimon.jpg);
+  background-image: url(../../img/budindelimon.webp);
 }
 .contenido3 .item2 {
   grid-area: img2;
-  background-image: url(../../img/cheesecakede\ arandanos.jpg);
+  background-image: url(../../img/cheesecakede\ arandanos.webp);
 }
 .contenido3 .item3 {
   grid-area: img3;
-  background-image: url(../../img/flan\ vegano.jpg);
+  background-image: url(../../img/flan\ vegano.webp);
 }
 .contenido3 .item4 {
   grid-area: img4;
-  background-image: url(../../img/macarron.png.jpg);
+  background-image: url(../../img/macarron.webp);
 }
 .contenido3 .item5 {
   grid-area: img5;
-  background-image: url(../../img/quiche\ higos.jpg);
+  background-image: url(../../img/quiche\ higos.webp);
 }
 .contenido3 .item6 {
   grid-area: img6;
-  background-image: url(../../img/sable\ de\ cardamomo.jpg);
+  background-image: url(../../img/sable\ de\ cardamomo.webp);
 }
 .contenido3 .item7 {
   grid-area: img7;
-  background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+  background-image: url(../../img/semi\ esfera\ de\ chocolate.webp);
 }
 .contenido3 .item8 {
   grid-area: img8;
-  background-image: url(../../img/hojaldre.jpg);
+  background-image: url(../../img/hojaldre.webp);
 }
 
 .p7 {
@@ -443,35 +443,35 @@ section .p2 {
   }
   .contenido3 .item1 {
     grid-area: img1;
-    background-image: url(../../img/budindelimon.jpg);
+    background-image: url(../../img/budindelimon.webp);
   }
   .contenido3 .item2 {
     grid-area: img2;
-    background-image: url(../../img/cheesecakede\ arandanos.jpg);
+    background-image: url(../../img/cheesecakede\ arandanos.webp);
   }
   .contenido3 .item3 {
     grid-area: img3;
-    background-image: url(../../img/flan\ vegano.jpg);
+    background-image: url(../../img/flan\ vegano.webp);
   }
   .contenido3 .item4 {
     grid-area: img4;
-    background-image: url(../../img/macarron.png.jpg);
+    background-image: url(../../img/macarron.webp);
   }
   .contenido3 .item5 {
     grid-area: img5;
-    background-image: url(../../img/quiche\ higos.jpg);
+    background-image: url(../../img/quiche\ higos.webp);
   }
   .contenido3 .item6 {
     grid-area: img6;
-    background-image: url(../../img/sable\ de\ cardamomo.jpg);
+    background-image: url(../../img/sable\ de\ cardamomo.webp);
   }
   .contenido3 .item7 {
     grid-area: img7;
-    background-image: url(../../img/semi\ esfera\ de\ chocolate.jpg);
+    background-image: url(../../img/semi\ esfera\ de\ chocolate.webp);
   }
   .contenido3 .item8 {
     grid-area: img8;
-    background-image: url(../../img/hojaldre.jpg);
+    background-image: url(../../img/hojaldre.webp);
   }
   .p7 {
     background-color: white;
