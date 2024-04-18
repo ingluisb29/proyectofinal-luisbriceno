@@ -61,7 +61,7 @@
 
 .contenido2 .img6, .contenido2 .img5, .contenido2 .img4, .contenido2 .img3 {
   background-size: cover;
-  height: 170px;
+  height: 300px;
   width: 100%;
 }
 
@@ -78,7 +78,7 @@ main {
 
 footer {
   display: inline-block;
-  background-color: #007987;
+  background-color: #8E7AB5;
   width: 100%;
   color: white;
   text-align: center;
@@ -91,7 +91,7 @@ footer .redes {
 }
 footer .redes a {
   text-decoration: none;
-  color: springgreen;
+  color: #E493B3;
   font-size: 50px;
   letter-spacing: 15px;
 }
@@ -105,7 +105,6 @@ section {
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(4, 1fr);
   padding: 20px;
-  grid-gap: 10px;
 }
 section .home {
   background-position: center;
@@ -118,29 +117,29 @@ section .home {
 section .img1 {
   background-image: url(../../img/budindelimon.jpg);
   background-size: cover;
-  height: 170px;
+  height: 300px;
   width: 100%;
   align-items: center;
 }
 section .img2 {
   background-image: url(../../img/macarron.png.jpg);
   background-size: cover;
-  height: 170px;
+  height: 300px;
   width: 100%;
 }
 section .p1 {
   width: 30%;
-  height: 170px;
+  height: 300px;
   width: 100%;
-  font-size: 9px;
+  font-size: 12px;
   padding: 10px;
   color: black;
 }
 section .p2 {
   width: 30%;
-  height: 170px;
+  height: 300px;
   width: 100%;
-  font-size: 9px;
+  font-size: 12px;
   padding: 10px;
   color: black;
 }
@@ -226,36 +225,36 @@ section .p2 {
 }
 .contenido2 .p3 {
   width: 30%;
-  height: 145px;
+  height: 300px;
   width: 100%;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
   color: black;
 }
 .contenido2 .p4 {
   width: 30%;
-  height: 145px;
+  height: 300px;
   width: 100%;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
   color: black;
 }
 .contenido2 .p5 {
   width: 30%;
-  height: 145px;
+  height: 300px;
   width: 100%;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
   color: black;
 }
 .contenido2 .p6 {
   width: 30%;
-  height: 145px;
+  height: 300px;
   width: 100%;
-  font-size: 11px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
   color: black;
@@ -351,7 +350,7 @@ section .p2 {
   height: auto;
   padding: 20px;
   border-radius: 15px;
-  background-color: violet;
+  background-color: #EEA5A6;
   display: grid;
   grid-template-columns: repeat(2, 40px);
   grid-template-rows: repeat(4, 200px);
@@ -402,11 +401,11 @@ section .p2 {
   border-radius: 15px;
   border: 2px solid black;
   width: 30%;
-  height: 700px;
+  height: 1500px;
   width: 100%;
-  font-size: 11px;
+  font-size: 16px;
   padding: 10px;
-  color: aqua;
+  color: black;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -429,7 +428,7 @@ section .p2 {
     height: auto;
     padding: 20px;
     border-radius: 15px;
-    background-color: violet;
+    background-color: #EEA5A6;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 200px);
@@ -528,9 +527,9 @@ section .p2 {
   background-size: cover;
   background-color: white;
   border-radius: 10px;
-  height: 150px;
+  height: 200px;
   width: 100%;
-  font-size: 13px;
+  font-size: 16px;
   text-align: center;
   padding: 10px;
   color: black;

@@ -12,8 +12,7 @@ section {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(4, 1fr );
-    padding: 20px;
-    grid-gap: 10px;  
+    padding: 20px;  
     .home {
         @include marco (center, cover, space-between);
         border: 1px solid black;
@@ -24,29 +23,29 @@ section {
     .img1 {
         background-image: url(../../img/budindelimon.jpg);
         background-size: cover;
-        height: 170px;
+        height: 300px;
         width: 100%;
         align-items: center;
     }
     .img2 {
         background-image: url(../../img/macarron.png.jpg);
         background-size: cover;
-        height: 170px;
+        height: 300px;
         width: 100%;
     }
     .p1 {
         width: 30%;
-        height: 170px;
+        height: 300px;
         width: 100%;
-        font-size: 9px;
+        font-size: 12px;
         padding: 10px;
         color: black;             
         }
     .p2 {
         width: 30%;
-        height: 170px;
+        height: 300px;
         width: 100%;
-        font-size: 9px;
+        font-size:  12px;
         padding: 10px;
         color:  black;
         }
