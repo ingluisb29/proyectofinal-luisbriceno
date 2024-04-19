@@ -43,28 +43,6 @@
   border-radius: 10px;
 }
 
-.contenido2 {
-  margin-bottom: 20px;
-  background-color: #c3c8ca;
-  height: auto;
-  width: 100%;
-  display: grid;
-}
-
-.contenido2 .menu1 {
-  border: 1px solid black;
-  background-position: center;
-  background-size: cover;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.contenido2 .img6, .contenido2 .img5, .contenido2 .img4, .contenido2 .img3 {
-  background-size: cover;
-  height: 300px;
-  width: 100%;
-}
-
 body {
   background-color: #c3c8ca;
   width: 100%;
@@ -202,62 +180,99 @@ section .p2 {
     padding: 20px;
   }
 }
-.contenido2 {
-  grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  padding: 20px;
-  grid-gap: 10px;
+.menu {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: white;
+  height: 150px;
+  width: 100%;
+  background-image: url(../../img/Logo\ Mailin\ Sweets\ -\ Original\ OFF.png);
+  background-size: contain;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
 }
-.contenido2 .menu1 {
-  justify-content: space-between;
+.contenido2 {
+  display: flex;
 }
 .contenido2 .img3 {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
   background-image: url(../../img/mousse\ de\ chocolate.webp);
 }
 .contenido2 .img4 {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
   background-image: url(../../img/flan\ vegano.webp);
 }
 .contenido2 .img5 {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
   background-image: url(../../img/cheesecakede\ arandanos.webp);
+  height: 330px;
 }
 .contenido2 .img6 {
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
   background-image: url(../../img/hojaldre.webp);
+  height: 330px;
 }
 .contenido2 .p3 {
-  width: 30%;
-  height: 300px;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
-  color: black;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  height: 330px;
+  font-size: 10px;
 }
 .contenido2 .p4 {
-  width: 30%;
-  height: 300px;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
-  color: black;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  height: 330px;
+  font-size: 10px;
 }
 .contenido2 .p5 {
-  width: 30%;
-  height: 300px;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
-  color: black;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  height: 340px;
+  font-size: 10px;
 }
 .contenido2 .p6 {
-  width: 30%;
-  height: 300px;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  padding: 10px;
-  color: black;
+  border: 1px solid black;
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  border-radius: 10px;
+  margin: 10px;
+  height: 340px;
+  font-size: 10px;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -275,73 +290,103 @@ section .p2 {
     border-radius: 10px;
   }
   .contenido2 {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    margin-top: 75px;
-    grid-gap: 20px;
-  }
-  .contenido2 .menu1 {
-    justify-content: space-between;
+    display: flex;
   }
   .contenido2 .img3 {
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
     background-image: url(../../img/mousse\ de\ chocolate.webp);
     max-width: 75%;
-    margin-left: 170px;
-    height: 360px;
+    height: auto;
   }
   .contenido2 .img4 {
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
     background-image: url(../../img/flan\ vegano.webp);
     max-width: 75%;
-    margin-left: 170px;
-    height: 360px;
+    height: auto;
   }
   .contenido2 .img5 {
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
     background-image: url(../../img/cheesecakede\ arandanos.webp);
     max-width: 75%;
-    margin-left: 170px;
-    height: 360px;
+    height: auto;
   }
   .contenido2 .img6 {
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
     background-image: url(../../img/hojaldre.webp);
     max-width: 75%;
-    margin-left: 170px;
-    height: 360px;
+    height: auto;
   }
   .contenido2 .p3 {
-    max-width: 75%;
-    height: 360px;
-    color: black;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    font-size: 20px;
+    text-align: justify;
   }
   .contenido2 .p4 {
-    max-width: 75%;
-    height: 360px;
-    color: black;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    font-size: 20px;
+    text-align: justify;
   }
   .contenido2 .p5 {
-    max-width: 75%;
-    height: 360px;
-    color: black;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    font-size: 20px;
+    text-align: justify;
   }
   .contenido2 .p6 {
-    max-width: 75%;
-    height: 360px;
-    color: black;
-    font-size: 22px;
-    text-align: center;
-    font-weight: bold;
-    padding: 20px;
+    border: 1px solid black;
+    background-position: center;
+    background-size: cover;
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px;
+    height: auto;
+    font-size: 20px;
+    text-align: justify;
   }
 }
 .contenido3 {
